@@ -30,7 +30,7 @@ function App() {
       <h1>API Detect language</h1>
       <input onChange={handleInputChange} type="text" placeholder="Introduzca la frase" />
       <button onClick={handleButton}>Detectar idioma</button>
-      <p>La frase es {language}</p>
+      <p>La frase es ({language})</p>
     </>
   )
 }
